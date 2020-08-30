@@ -1,0 +1,29 @@
+
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.results {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.result {
+  margin: 2rem;
+  padding: 2rem;
+  width: 300px;
+}
+
+p, b {
+  color: black;
+}
